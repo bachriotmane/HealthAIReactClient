@@ -11,12 +11,10 @@ export const General = () => {
     return (
         <div>
           <Navbar />
-    
           <main>
             <div id="home">
               <Home />
             </div>
-    
             <div id="about">
               <About />
             </div>
@@ -29,9 +27,9 @@ export const General = () => {
               <Doctors />
             </div>
     
-            <div id="blog">
+            {/* <div id="blog">
               <Blogs />
-            </div>
+            </div> */}
           </main>
     
           <Footer />

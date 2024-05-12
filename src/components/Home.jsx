@@ -6,16 +6,13 @@ const Home = () => {
     <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 text-white bg-[url('assets/img/home.png')] bg-no-repeat bg-cover opacity-90">
       <div className=" w-full lg:w-4/5 space-y-5 mt-10">
         <h1 className="text-5xl font-bold leading-tight">
-          Empowering Health Choices for a Vibrant Life Your Trusted..
+        Votre santé, notre priorité : Découvrez notre application intelligente pour une prise en charge médicale sur mesure !
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magnam
-          omnis natus accusantium quos. Reprehenderit incidunt expedita
-          molestiae impedit at sequi dolorem iste sit culpa, optio voluptates
-          fugiat vero consequatur?
+        Plongez dans l'avenir de la santé avec notre application révolutionnaire. Importer vos analyses et scanners, recevez des recommandations de médicaments et un résumé clair de vos consultations médicales. Votre bien-être entre de bonnes mains avec nous.
         </p>
 
-        <Button title="See Services" />
+        {/* <Button title="See Services" /> */}
       </div>
     </div>
   );

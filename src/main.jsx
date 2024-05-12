@@ -6,9 +6,11 @@ import "primeicons/primeicons.css";
 import "./assets/theme/theme.css";
 import "./index.css";
 import DataFetchingComponent from "./helpers/test.jsx";
+import Summer from "./components/summer.jsx";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <DataFetchingComponent />
+    <App />
   </React.StrictMode>
 );

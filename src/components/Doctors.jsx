@@ -8,35 +8,26 @@ import { FaArrowRight } from "react-icons/fa";
 const Doctors = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
-      name: "Dr. Serena Mitchell",
-      specialties: "Orthopedic Surgeon",
+      img: "/src/assets/img/haj1.png",
+      name: "Haj Mohamed Fatmi",
+      specialties: "Cette application a vraiment simplifié ma vie en matière de santé ! J'ai pu télécharger mes analyses et obtenir des recommandations de médicaments instantanément",
     },
     {
-      img: "/src/assets/img/doc2.jpg",
-      name: "Dr. Julian Bennett",
-      specialties: "Cardiologist",
+      img: "/src/assets/img/haj3.png",
+      name: "Aicha Mbarki",
+      specialties: "Je suis impressionné par la précision des recommandations de médicaments fournies par cette application. En plus, l'enregistrement de mes consultations avec le médecin et le résumé qui en résulte m'ont vraiment aidé à mieux comprendre ma santé.",
     },
     {
-      img: "/src/assets/img/doc3.jpg",
-      name: "Dr. Camila Rodriguez",
-      specialties: "Pediatrician",
+      img: "/src/assets/img/haj2.png",
+      name: "Hamid Benisse",
+      specialties: "Je recommande vivement cette application à quiconque souhaite une prise en charge médicale plus personnalisée et pratique. Les recommandations de médicaments sont pertinentes et l'analyse des consultations avec les médecins m'a permis de mieux suivre mes traitements",
     },
     {
-      img: "/src/assets/img/doc4.jpg",
-      name: "Dr. Victor Nguyen",
-      specialties: "Neurologist",
+      img: "/src/assets/img/haj4.png",
+      name: "Bachri Otmane",
+      specialties: "Je recommande vivement cette application à quiconque ",
     },
-    {
-      img: "/src/assets/img/doc5.jpg",
-      name: "Dr. Ethan Carter",
-      specialties: "Dermatologist",
-    },
-    {
-      img: "/src/assets/img/doc6.jpg",
-      name: "Dr. Olivia Martinez",
-      specialties: "Ophthalmologist",
-    },
+    
   ];
 
   const slider = useRef(null);
@@ -83,12 +74,9 @@ const Doctors = () => {
       <div className=" flex flex-col items-center lg:flex-row justify-between mb-10 lg:mb-0">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
-            Our Doctors
+            Avis de nos clients
           </h1>
-          <p className=" mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-            quidem.
-          </p>
+          
         </div>
         <div className="flex gap-5 mt-4 lg:mt-0">
           <button

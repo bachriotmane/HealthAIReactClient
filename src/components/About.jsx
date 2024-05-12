@@ -5,24 +5,9 @@ const About = () => {
   return (
     <div className=" min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
       <div className=" w-full lg:w-3/4 space-y-4">
-        <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
+        <h1 className=" text-4xl font-semibold text-center lg:text-start">À propos de nous</h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+        Notre application est le fruit d'une ambition : rendre la santé plus accessible et compréhensible pour tous. Conçue avec soin, elle intègre des technologies de pointe pour permettre aux utilisateurs de télécharger leurs analyses et scanners en toute simplicité. Notre IA analyse ces données pour fournir des recommandations de médicaments et des explications claires des résultats. Avec nous, la santé devient transparente, pratique et personnalisée.
         </p>
       </div>
       <div className=" w-full lg:w-3/4">

@@ -9,6 +9,7 @@ function DataFetchingComponent() {
     useEffect(() => {
         const fetchData = async () => {
             try {
+                console.log(localStorage.getItem('user'));
                 const response = await axiosInstance.get('/analyse/1');
                 setData(response.data);
             } catch (error) {
